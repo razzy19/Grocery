@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_clear"
+        android:orderInCategory="107"
+        android:title="क्लिअर कार्ट"
+        app:showAsAction="always" />
+
+
+</menu>

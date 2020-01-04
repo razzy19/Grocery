@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <group
+            android:id="@+id/menu_top"
+            android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ord_history"
+            android:icon="@drawable/ic_history_black"
+            android:title="ऑर्डर इतिहास"
+          />
+                <item
+                    android:id="@+id/nav_manage"
+                    android:icon="@drawable/ic_manage_address"
+                    android:title="पत्ता व्यवस्थापित करा"
+
+                    />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_highlight_off_black_24dp"
+                    android:title="लोग आउट"
+                    />
+
+
+
+        </group>
+
+
+
+
+</menu>

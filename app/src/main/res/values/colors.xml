@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffd503</color>
+    <color name="colorPrimaryDark">#ffd503</color>
+    <color name="colorAccent">#ffd503</color>
+
+    <color name="appColor">#ffd503</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="gradient_start_color">#A0B8EC</color>
+    <color name="gradient_end_color">#11308B</color>
+
+    <color name="tab_indicator_gray">#E9E7E7</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#7C7C7C</color>
+
+    <color name="hologray">#C5C5C5</color>
+    <color name="lightgray">#FFECECEC</color>
+
+    <color name="black">#000000</color>\
+
+    <color name="red">#FF0000</color>
+
+    <color name="green">#06b300</color>
+
+
+</resources>

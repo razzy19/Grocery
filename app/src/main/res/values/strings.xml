@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GrocersApp</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string-array name="address_string">
+        <item>होम</item>
+        <item>वोर्क</item>
+        <item>इतर</item>
+    </string-array>
+
+    <string-array style="" name="time_interval" >
+        <item>7AM - 9AM</item>
+        <item>9AM - 12PM</item>
+        <item>12PM - 2PM</item>
+        <item>2PM - 4PM</item>
+        <item>4PM - 6PM</item>
+        <item>6PM - 8PM</item>
+        <item>8PM - 10PM</item>
+    </string-array>
+</resources>

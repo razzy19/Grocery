@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="125dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        app:cardCornerRadius="10dp"
+        android:background="@drawable/button_transparent_white"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/prodImg"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@color/white" />
+
+
+        <TextView
+            android:id="@+id/txt_prodName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/muli"
+            android:paddingLeft="5dp"
+            android:text="Item name"
+            android:textColor="@color/black"
+            android:textSize="16sp"></TextView>
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:background="@color/appColor"
+            android:fontFamily="@font/muli"
+            android:text="कार्टमध्ये जोडा"
+            android:textAllCaps="false">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/txt_ProdPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/muli"
+            android:paddingLeft="5dp"
+            android:text="60 Rs"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
